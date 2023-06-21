@@ -2,7 +2,6 @@
 
 ## Contacts: 
 
-
 * **Location:** Russia, Kaluga
 * **Phone:** +7-905-641-5715
 * **Email:** Abarhes@gmail.com
