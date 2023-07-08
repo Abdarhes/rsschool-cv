@@ -16,7 +16,7 @@ body {
 }
 header {
     background-color: #636F94;
-    height: 65px;
+    min-height: 65px;
     max-width: 1440px;
 }
 .container {
@@ -25,6 +25,7 @@ header {
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
 }
