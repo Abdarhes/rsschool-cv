@@ -29,6 +29,7 @@ let result = multiple(1, 2);
 alert( result );
 ```
 ## Experience
+Unfortunately there are no projects, but there are a couple of layouts on my Github.
 
 ## Education:
 
@@ -36,6 +37,9 @@ alert( result );
 
 **Courses:** [HTML Academy](https://htmlacademy.ru)
 
-## English:
+## Language:
 
-A2
+Russian: native
+
+English: A2
+
