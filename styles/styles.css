@@ -57,6 +57,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     background-color: black;
 }
 
+.header__item a:hover {
+    color: #BB945F;
+}
+
 .logo {
     margin-left: 20px;
 }
@@ -184,6 +188,36 @@ li a {
 
 .carusel {
     margin-top: 40px;
+}
+
+.carusel__buttons {
+    display: flex;
+}
+
+.carusel__btn {
+    display: block;
+    height: 26px;
+    width: 26px;
+    padding: 5px;
+    outline: none !important;
+}
+
+.carusel__btn__link {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-color: #0C0C0E;
+    border: 1px solid #0C0C0E;
+    border-radius: 50%;
+}
+
+.btn_bej {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-color: #BB945F;
+    border: 1px solid #BB945F;
+    border-radius: 50%;
 }
 
 .favorites {
@@ -489,6 +523,7 @@ legend {
     border-radius: 5px;
   }
 
+
 .item__book {
     margin-top: auto;
     margin-right: -40px;
@@ -761,13 +796,22 @@ legend {
     font-weight: 400;
     line-height: 50px; /* 166.667% */
     letter-spacing: 0.6px;
+    margin-bottom: 20px;
 }
 
 .card__bg input {
+    display: block;
     width: 520px;
     height: 66px;
-    margin: 20px 20px 0 20px;
+    margin: 0px 20px 25px 20px;
     border-radius: 10px;
+    border: none;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    padding: 8px 0px 8px 20px;
+    color:#BB945F;
 }
 
 .card__bg input:nth-child(2) {
@@ -784,14 +828,12 @@ legend {
 } 
 
 .card__bg input::placeholder {
-    padding-left: 20px;
-    color: #8E8E8E;
+    Color: #8E8E8E;
     font-family: Forum;
     font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 50px; /* 166.667% */
+    line-height: 50px;
     letter-spacing: 0.6px;
+    padding: 8px 0px 8px 0px;
 }
 
 .card__bg__button {
@@ -918,5 +960,16 @@ ul li {
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+}
+
+.footer__link {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
     letter-spacing: 2px;
 }

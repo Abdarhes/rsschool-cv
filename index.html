@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="assets/header/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
-    <script src=index.js></srript> 
     <title>Library</title>
 </head>
 <body>
+    <script src="index.js"></script>
     <div class="wrapper">
         <div class="content">
             <header>
@@ -22,12 +23,12 @@
                         <p>Brooklyn Public Library</p>
                     </div>
                     <nav>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Favorites</a></li>
-                            <li><a href="#">Coffee shop</a></li>
-                            <li><a href="#">Contacts</a></li>
-                            <li><a href="#">Library Card</a></li>
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#">About</a></li>
+                            <li class="header__item"><a href="#">Favorites</a></li>
+                            <li class="header__item"><a href="#">Coffee shop</a></li>
+                            <li class="header__item"><a href="#">Contacts</a></li>
+                            <li class="header__item"><a href="#">Library Card</a></li>
                         </ul>
                     </nav>
                     <div class="icon_profile">
@@ -55,7 +56,11 @@
                             <img src="assets/main/about/image3.png" alt="">
                         </div>
                         <div class="carusel">
-                            <img src="assets/main/about/Carousel_pagination.svg" alt="">
+                            <div class="carusel__buttons">
+                                <a class="carusel__btn" href="#"><span class="btn_bej"></span></a>
+                                <a class="carusel__btn" href="#"><span class="carusel__btn__link"></span></a>
+                                <a class="carusel__btn" href="#"><span class="carusel__btn__link"></span></a>
+                              </div>
                         </div>
                     </section>
                     <section class="favorites">
@@ -264,8 +269,8 @@
                                 <form action="#" method="post" enctype="multipart/form-data">
                                     <div class="card__bg">
                                         <div class="card__bg__item"><p>Brooklyn Public Library</p></div>
-                                        <input placeholder="Reader's name " type="text" name="name">
-                                        <input placeholder="Card number" type="text" name="card__number">
+                                        <input class="card__field" placeholder="Reader's name " type="text" name="name">
+                                        <input class="card__field" placeholder="Card number" type="text" name="card__number">
                                     </div>
                                     <button class="card__bg__button">Check the card</button>
                                 </form>
@@ -298,9 +303,9 @@
                             </div>
                             <div>
                                 <ul class="adress__icon">
-                                     <li><img src="assets/footer/u_twitter-alt.svg" alt="twitter"></li>
-                                      <li><img src="assets/footer/u_instagram.svg" alt="instagram"></li>
-                                     <li><img src="assets/footer/u_facebook-f.svg" alt="facebook"></li>
+                                     <li><a class="media__link" target="_blank" href="https://twitter.com"><img src="assets/footer/u_twitter-alt.svg" alt="twitter"></a></li>
+                                      <li><a class="media__link" target="_blank" href="https://www.instagram.com"><img src="assets/footer/u_instagram.svg" alt="instagram"></a></li>
+                                     <li><a class="media__link" target="_blank" href="https://www.facebook.com"><img src="assets/footer/u_facebook-f.svg" alt="facebook"></a></li>
                                 </ul> 
                             </div>
                         </div>
@@ -320,10 +325,10 @@
                         <div>2023</div>
                     </div>
                     <div>
-                        <div>The Rolling Scopes School</div>
+                        <div><a class="footer__link" target="_blank" href="https://rs.school/js-stage0/">The Rolling Scopes School</a></div>
                     </div>
                     <div>
-                        <div>Abdarhes</div>
+                        <div><a class="footer__link" target="_blank" href="https://github.com/Abdarhes">Abdarhes</a></div>
                     </div>
                  </div> 
                 </div>
