@@ -87,7 +87,7 @@ nav ul {
 }
 
 ul li {
-    margin: 0 15px;
+    margin: 8px 15px 0 0;
 }
 
 li a {
@@ -100,7 +100,7 @@ li a {
 }
 
 .icon_profile {
-    margin-right: 31px;
+    margin-right: 20px;
 }
 
 .welcome {
@@ -929,10 +929,6 @@ legend {
     display: flex;
     justify-content: flex-start;
     height: 40px;
-}
-
-ul li {
-    margin: 8px 15px 0 0;
 }
 
 .opening__hours {
