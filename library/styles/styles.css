@@ -755,6 +755,10 @@ legend {
     font-weight: 700;
 }
 
+.digital_library_cards {
+    margin-top: -20px;
+}
+
 .library__card {
     display: flex;
     justify-content:space-between;
