@@ -1,3 +1,2 @@
 # rsschool-cv
-https://Abdarhes.github.io/rsschool-cv/cv
-https://Abdarhes.github.io/rsschool-cv/
+https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2023Q2/library/)https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2023Q2/library/
