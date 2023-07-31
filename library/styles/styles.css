@@ -856,6 +856,10 @@ legend {
     border: 1px solid #0C0C0E;
 }
 
+.get__reader__card {
+    margin-right:20px;
+}
+
 .get__card {
     color: #000;
     text-align: right;
