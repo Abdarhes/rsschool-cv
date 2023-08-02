@@ -850,6 +850,12 @@ legend {
     border: 1px solid #0C0C0E;
 }
 
+.card__bg__button:hover {
+    background-color: #BB945F;
+    border: 2px solid #BB945F;
+    border-radius: 2px;
+}
+
 .get__reader__card {
     margin-right:20px;
 }
@@ -900,6 +906,12 @@ legend {
 .get__button button:first-child {
     margin-right: 20px;
 }
+
+.get__button button:hover {
+    background-color: #BB945F;
+    border: 2px solid #BB945F;
+    border-radius: 2px;
+} 
 
 .footer__nav {
     height: 250px;
