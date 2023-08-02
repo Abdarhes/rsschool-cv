@@ -38,6 +38,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -429,6 +433,7 @@ legend {
 
 .book1__overview {
     width: 355px;
+    height: 320px;
     margin: 20px 15px 0px 20px;
     color: #000;
     font-family: Inter;
@@ -442,6 +447,8 @@ legend {
 }      
 
 .book2__overview {
+    width: 355px;
+    height: 320px;
     margin: 20px 15px 0 20px;
     color: #000;
     font-family: Inter;
@@ -454,6 +461,8 @@ legend {
 }
 
 .book3__overview {
+    width: 355px;
+    height: 320px;
     margin: 20px 15px 0 20px;
     color: #000;
     font-family: Inter;
@@ -467,7 +476,7 @@ legend {
 
 .book4__overview {
     width: 355px;
-    height: 240px;
+    height: 320px;
     margin: 20px 15px 0px 20px;
     color: #000;
     font-family: Inter;
@@ -479,50 +488,31 @@ legend {
     text-transform: capitalize;
 }
 
-.book1__buy {
-    margin-top: 11px;
-    margin-left: 20px;
+.book__btn {
+    margin: 15px 0px 15px 20px;
+    padding: 9px 27px;
+    color: #0C0C0E;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: border 0.7s;
+    transition:  background-color 0.6s;
     width: 75px;
     height: 30px;
 }
 
-.book2__buy {
-    margin-top: 51px;
-    margin-left: 20px;
-    width: 75px;
-    height: 30px;
+.book__btn:hover{
+    background-color: #BB945F;
+    border: 2px solid #BB945F;
+    border-radius: 2px;
 }
 
-.book3__buy{
-    margin-top: 11px;
-    margin-left: 20px;
-    width: 75px;
-    height: 30px;
+.book__own {
+    color: #BB945F;
+    border: 1px solid #BB945F !important;
+    border-radius: 2px;
+    background-color: #FFF !important;
 }
-
-.book4__buy {
-    width: 75px;
-    height: 30px;
-    margin-top: 90px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-.book button.active:before {
-    content: 'Own';
-    padding: 8px 23px;
-    color: rgba(187, 148, 95);
-    border: rgba(187, 148, 95) solid 1px;
-    border-radius: 5px;
-  }
-  
-.book button:not(.active):after {
-    content: 'Buy';
-    padding: 8px 25px;
-    border: black solid 1px;
-    border-radius: 5px;
-  }
-
 
 .item__book {
     margin-top: auto;
@@ -755,6 +745,10 @@ legend {
     font-weight: 700;
 }
 
+.contacts__phone a {
+    color: #000;
+}
+
 .digital_library_cards {
     margin-top: -20px;
 }
@@ -791,7 +785,7 @@ legend {
 }
 
 .card__bg p {
-    width: 294px;
+    width: 350px;
     height: 50px;
     color: #000;
     font-family: Forum;
@@ -976,4 +970,8 @@ legend {
     font-weight: 400;
     line-height: 20px; /* 100% */
     letter-spacing: 2px;
+}
+
+.address__link {
+    color: #FFF;
 }
