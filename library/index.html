@@ -24,11 +24,11 @@
                     </div>
                     <nav>
                         <ul class="header__list">
-                            <li class="header__item"><a href="#">About</a></li>
-                            <li class="header__item"><a href="#">Favorites</a></li>
-                            <li class="header__item"><a href="#">Coffee shop</a></li>
-                            <li class="header__item"><a href="#">Contacts</a></li>
-                            <li class="header__item"><a href="#">Library Card</a></li>
+                            <li class="header__item"><a href="#about">About</a></li>
+                            <li class="header__item"><a href="#favorites">Favorites</a></li>
+                            <li class="header__item"><a href="#coffeeshop">Coffee shop</a></li>
+                            <li class="header__item"><a href="#contacts">Contacts</a></li>
+                            <li class="header__item"><a href="#librarycard">Library Card</a></li>
                         </ul>
                     </nav>
                     <div class="icon_profile">
@@ -45,7 +45,7 @@
                             library  
                         </h1>                               
                     </section>
-                    <section class="about">
+                    <section class="about" id="about">
                         <div class="item__title"><h2>About</h2></div>                    
                         <p>The Brooklyn Library is a free workspace,
                              a large number of books and a cozy coffee shop inside 
@@ -63,7 +63,7 @@
                               </div>
                         </div>
                     </section>
-                    <section class="favorites">
+                    <section class="favorites" id="favorites">
                         <div class="item__title"><h2>Favorites</h2></div>
                         <div class="favorites__form">
                             <form action="#" method="post" enctype="multipart/form-data">
@@ -97,7 +97,7 @@
                                          family values, light Sapphic romance, and a strong, complex 
                                          protagonist. Not for the faint of heart.       
                                     </p>
-                                    <button class="book1__buy" onclick="this.classList.toggle('active')"></button>
+                                    <button class="book__btn">Buy</button>
                                 </div>
                                 <div class="item__book">
                                     <img src="assets/main/favorites/book1.png" alt="book1">
@@ -116,7 +116,7 @@
                                         from a breakup moves to a quaint town in upstate New York and befriends 
                                         a beautiful witch.       
                                     </p>
-                                    <button class="book2__buy" onclick="this.classList.toggle('active')"></button>
+                                    <button class="book__btn">Buy</button>
                                 </div>
                                 <div class="item__book">
                                     <img src="assets/main/favorites/book2.png" alt="book2">
@@ -136,7 +136,7 @@
                                          family values, light Sapphic romance, and a strong, complex 
                                          protagonist. Not for the faint of heart.       
                                     </p>
-                                    <button class="book3__buy" onclick="this.classList.toggle('active')"></button>
+                                    <button class="book__btn">Buy</button>
                                 </div>
                                 <div class="item__book">
                                     <img src="assets/main/favorites/book3.png" alt="book3">
@@ -154,8 +154,7 @@
                                         (and her family) exploring how the Windsors have evolved and 
                                         thrived as the modern world has changed around them.       
                                     </p>
-                                    
-                                    <button class="book4__buy" onclick="this.classList.toggle('active')"></button>
+                                    <button class="book__btn book__own">Own</button>
                                 </div>
                                 <div class="item__book">
                                     <img src="assets/main/favorites/book4.png" alt="book4">
@@ -163,7 +162,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="coffee__shop">
+                    <section class="coffee__shop" id="coffeeshop">
                         <div class="item__title"><h2>Coffee Shop</h2></div>
                         <p>I<span class="lowercase">n our library, we have of cozy coffee shop, welcoming in customers
                                  with frothy cappuccinos and friendly conversation.
@@ -231,27 +230,27 @@
                             </div>
                         </div>
                     </section>
-                    <section class="contacts">
+                    <section class="contacts" id="contacts">
                         <div class="item__title"><h2>Our Contacts</h2></div>
                         <div class="contacts__info">
-                            <div class="text__info">
+                            <div class="contacts__phone">
                                 <div class="text__item1">
                                     For all Library inquiries:
                                 </div>
                                 <div class="text__item2">
-                                    Please call (617) 730-2370
+                                    Please call <a href="tel:+6177302370">(617) 730-2370</a>
                                 </div>
                                 <div class="text__item3">
-                                    For TTY service, please call (617) 730-2370
+                                    For TTY service, please call <a href="tel:+6177302370">(617) 730-2370</a> 
                                 </div>
                                 <div class="text__item4">
-                                    Putterham Library: (617) 730-2385
+                                    Putterham Library: <a href="tel:+6177302385">(617) 730-2385</a> 
                                 </div>
                                 <div class="text__item5">
                                     Senior Staff
                                 </div>
                                 <div class="text__item6">
-                                    Library Director: <span>Amanda Hirst</span>
+                                    Library Director: <a href="mailto:amandahirst@gmail.com"><span>Amanda Hirst</span></a>
                                 </div>
                             </div>
                             <div>
@@ -259,7 +258,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="digital_library_cards">
+                    <section class="digital_library_cards" id="librarycard">
                         <div class="item__title"><h2>Digital Library Cards</h2></div>
                         <div class="library__card">
                             <div class="card__item">
@@ -298,8 +297,8 @@
                    <div class="adress">
                         <div>
                             <div class="adress__item">
-                                <div>286 Cadman Plaza, New York, 
-                                    NY 11238, United States</div>
+                                <div><a class="address__link" target="_blank" href="https://www.google.com/maps/search/286+Cadman+Plaza,+New+York,+NY+11238,+United+States/@40.6956377,-73.9932709,17z/data=!3m1!4b1?hl=ru&entry=ttu">286 Cadman Plaza, New York, 
+                                    NY 11238, United States</a></div>
                             </div>
                             <div>
                                 <ul class="adress__icon">
@@ -321,16 +320,16 @@
                         </div>
                     </div> 
                     <div class="footer__rss">
-                    <div>
-                        <div>2023</div>
-                    </div>
-                    <div>
-                        <div><a class="footer__link" target="_blank" href="https://rs.school/js-stage0/">The Rolling Scopes School</a></div>
-                    </div>
-                    <div>
-                        <div><a class="footer__link" target="_blank" href="https://github.com/Abdarhes">Abdarhes</a></div>
-                    </div>
-                 </div> 
+                        <div>
+                            <div>2023</div>
+                         </div>
+                         <div>
+                            <div><a class="footer__link" target="_blank" href="https://rs.school/js-stage0/">The Rolling Scopes School</a></div>
+                        </div>
+                        <div>
+                            <div><a class="footer__link" target="_blank" href="https://github.com/Abdarhes">Abdarhes</a></div>
+                        </div>
+                     </div> 
                 </div>
             </footer>
         </div>
